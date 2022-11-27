@@ -1,0 +1,11 @@
+$border: 2px solid rgba(255, 255, 255, .01);
+$header-color: #374151;
+$blue: #1599c5;
+$white: #f6f7f9;
+$main: #23272f;
+
+%heading {
+    color: $white;
+    font-size: 40px;
+    font-weight: 900;
+}

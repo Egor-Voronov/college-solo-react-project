@@ -1,0 +1,46 @@
+.footer {
+    background: rgba($header-color, .65);
+    width: 100%;
+    height: 50px;
+
+    position: relative;
+    margin-top: 100px;
+
+    display: flex;
+    justify-content: center;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    a {
+        color: $white;
+        text-decoration: none;
+        font-weight: 600;
+        transition: .3 linear;
+        &:hover {
+            opacity: .6;
+            transition: .3 linear;
+        }
+    }
+
+}
+
+.arrow {
+    width: 40px;
+    height: 40px;
+
+    position: relative;
+    right: 30px;
+}
+
+.socialcs {
+    display: flex;
+    gap: 20px;
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}
