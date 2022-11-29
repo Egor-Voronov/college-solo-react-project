@@ -6,8 +6,9 @@ import 'swiper/css/navigation'
 import 'swiper/css/effect-fade'
 import SwiperCore, { Autoplay } from 'swiper';
 
-import slide1 from '../../assets/slide1.png'
+import slide1 from '../../assets/vo.png'
 import slide2 from '../../assets/slide2.png'
+import {Link} from 'react-router-dom'
 
 export function SlideWrapper () {
     SwiperCore.use([Autoplay])
@@ -25,11 +26,18 @@ export function SlideWrapper () {
             className='slide-wrapper'
         >
         <SwiperSlide className='slide'>
-            <h2>Готовый комплект <br /> с кассой для вашего <br /> бизнеса</h2>
-            <img src={slide1} alt="изображение на слайдер" className='silde-img slide-img1'/>
+        <div className="flex">
+            <h2>Главная Финтех компания <br /> Вологодский Области</h2>
+            <a href='#footer'><button className='cta'>Узнать больше</button></a>
+        </div>
+        <img src={slide1} alt="изображение на слайдер" className='silde-img slide-img1'/>
+
         </SwiperSlide>
         <SwiperSlide className='slide'>
-            <h2>Более 20 лет <br /> широкой экспертизы</h2>
+            <div className="flex">
+                <h2>Большой перечень <br /> Разнообразных услуг</h2>
+                <a href="#footer"><button className='cta'>Узнать больше</button></a>
+            </div>
             <img src={slide2} alt="изображение на слайдер" className='silde-img slide-img2' />
         </SwiperSlide>
 

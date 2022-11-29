@@ -14,17 +14,17 @@ export function Header () {
             <div className="container">
                 <Link to="/" className='logo-container'>
                     <img src={logo} alt="logo" className="logo" />
-                    <h1>garant</h1>
+                    <h1>FinTech VO</h1>
                 </Link>
 
                 <div className="contacts-header">
                     <a href="">+89115382915</a>
-                    <a href="">garant@gmail.com</a>
+                    <a href="">fintechVO@gmail.com</a>
                 </div>
                 
                 <nav className="nav">
                     <a href="#main">Главная</a>
-                    <Link to='/#about'>О нас</Link>
+                    <a href="#about">О нас</a>
                     <a href="#footer">Подвал</a>
                     <Link to="/products">Каталог</Link>
                 </nav>

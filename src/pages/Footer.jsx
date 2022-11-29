@@ -10,7 +10,7 @@ export function Footer () {
             <div className="container">
                 <div className="contacts-header">
                     <a href="">+89115382915</a>
-                    <a href="">garant@gmail.com</a>
+                    <a href="">fintechVO@gmail.com</a>
                 </div>
 
                 <a href="#main"><img src={arrow} alt="домой" className='arrow' /></a>
