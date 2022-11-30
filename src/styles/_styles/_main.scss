@@ -26,11 +26,11 @@
 }
 
 .slide-img1 {
-    width: 500px;
+    width: 800px;
     height: 600px;
     position: relative;
     top: 50px;
-    left: 150px;
+    left: 100px;
 }
 
 .slide-img2 {
@@ -43,4 +43,36 @@
     position: relative;
     top: 10px;
     margin-bottom: 10px;
+}
+
+.slide-img4 {
+    position: relative;
+    bottom: 20px;
+    left: 50px;
+}
+
+.str {
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.slide-img5 {
+    position: relative;
+    left: 100px;
+}
+
+.slide-img6 {
+    position: relative;
+    width: 1000px;
+    height: 600px;
+}
+
+.slide-img7 {
+    position: relative;
+    height: 600px;
+}
+
+.slide-img8 {
+    position: relative;
+    top: 50px;
 }
